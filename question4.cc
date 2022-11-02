@@ -8,7 +8,7 @@ int main()
    cin>>sz;
    int randArray[sz];
    for(int i=0;i<sz;i++)
-      randArray[i]=rand()%100;  //Generate number between 0 to 99
+      randArray[i]=rand()%100;  
   
    cout<<"\nElements of the array::"<<endl;
   
