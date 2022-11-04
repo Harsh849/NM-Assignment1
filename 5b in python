@@ -1,0 +1,19 @@
+def fibo(n: int):                                        
+    assert (int(n)==n and n>=1),
+    
+    a1=0
+    a2=1
+    x=0
+    
+    if n>2:
+
+        for i in range(2,n):
+            x=a1+a2
+            a1=a2
+            a2=x
+        return x
+
+    elif n==2:
+        return a2
+    else:
+        return 
