@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0,'/home/rudra/assignment/assignment1/question5')
+
 from fibo import fibo
 import numpy as np
 import matplotlib.pyplot as plt
